@@ -1,0 +1,529 @@
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+
+/* Header section */
+
+header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: .0625rem solid lightgray;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-right: 0.5rem;
+  flex: 1;
+}
+
+.colmar {
+  font-weight: 900;
+  color: #404040;
+  padding-left: 0.5rem;
+}
+
+.academy {
+  font-weight: 400;
+  color: gray;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  margin-right: 16px;
+}
+
+nav span {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/* Jumbtron section */
+
+.jumbotron {
+  background-color: lightgray;
+  padding-top: 4rem;
+  display: flex;
+}
+
+.jumbopic {
+  max-width: 60%;
+  height: auto;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.mobile.gray {
+  display: none;
+}
+
+.jumbopic img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.jumbotext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jumbotext h1{
+  color: #404040;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0 0 2.5rem 2.5rem;
+}
+
+.jumbotext p {
+  color: #404040;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 2.5rem 2.5rem;
+}
+
+/* Why won't cursor appear over entire button and not just words? Also, want to add hover */
+
+.button {
+  background-color: #404040;
+  padding: 1rem 9.5rem 1rem 9.5rem;
+  max-width: 600px;
+  margin: 0 0 0 2.5rem;
+  line-height: 1.5rem;
+  border-radius: 5px;
+}
+
+.button a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* INFORMATION SECTION */
+
+.info {
+  display: flex;
+  padding-top: 1rem;
+  border-bottom: .0625rem solid lightgray;
+}
+
+.infopic {
+  max-width: 60%;
+  height: auto;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.infopic img {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-section-one h1 {
+  margin: 1rem 1.5rem .5rem 1.5rem;
+  color: #404040;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.25;
+
+}
+
+.info-section-one p {
+  margin: .75rem 1.5rem 1rem 1.5rem;
+  color: #404040;
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.info-section-one span {
+  margin: 0.2rem 1.5rem 1rem 1.5rem;
+  color: #404040;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.35
+  margin-bottom: 2rem;
+}
+
+/* Right column */
+
+.info-section-two {
+  display: flex;
+  flex-direction: column;
+  max-width: 423px;
+}
+
+.desktop {
+  display: flex;
+  align-items: center;
+  border-bottom: .0625rem solid lightgray;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop.gray {
+  background-color: lightgray;
+}
+
+.small-image {
+  max-width: 35%;
+  height: auto;
+  padding: 1rem;
+  border-left: .0625rem solid lightgray;
+}
+
+.small-image img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.image-copy {
+  padding: 0.5rem 0 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.25;
+}
+
+.image-copy p {
+  color: gray;
+  padding: 0.5rem .8rem 0.5rem 0;
+
+}
+
+
+/* COURSES SECTION */
+
+.courses {
+  background-color: #EAEBEC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses h2 {
+  color: #404040;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 2rem 0 2rem 0;
+  padding-top: 2rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  max-width: 950px;
+}
+
+.firstrow {
+  display: flex;
+  justify-content: center;
+}
+
+.course {
+  margin: 32px;
+  max-width: 30%;
+  background-color: #FFFFFF;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.course img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width:100%;
+  height: 14rem;
+  object-fit: cover;
+}
+
+.course h4 {
+  padding: 1rem 0 .7rem .8rem;
+  font-size: 1.5rem;
+}
+
+.course h5 {
+  padding: .5rem 0 .5rem .8rem;
+  color: gray;
+  weight: 900;
+  }
+
+.course p {
+  padding: 0 0 .5rem .8rem;
+  line-height: 1.25;
+  color: darkgray;
+}
+
+.secondrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.mobile-courses {
+  display: none;
+}
+
+/* THESIS SECTION */
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+  background-color: #F3F5F5;
+  padding: 2rem 0;
+}
+
+.thesis h2 {
+  color: #404040;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.video-container {
+  max-width: 60%;
+  height: auto;
+  margin: 1.5rem 0 1rem 1.5rem;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.video-copy h4 {
+  color: #404040;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 2.5rem 0.8rem 1.5rem;
+}
+
+.video-copy p {
+  font-size: 1rem;
+  line-height: 1.25;
+  margin: 0 auto 2.5rem 1.5rem;
+}
+
+.thesis-copy {
+  padding: 0.5rem 0 0 1rem;
+  line-height: 1.25;
+}
+
+.thesis h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  max-width: 423px;
+}
+
+/* Footer section */
+footer {
+  display: flex;
+  line-height: 4rem;
+}
+
+.copyright {
+     display: inline-block;
+     margin-left: 1rem;
+   }
+
+.footer-nav {
+     display: flex;
+     justify-content: flex-end;
+     flex: 1;
+     margin-right: 1rem;
+   }
+
+.footer-nav span {
+     display: inline-block;
+     margin-left: 1rem;
+   }
+
+/* Tablet section */
+
+@media only screen and (max-width: 760px){
+
+  .logo,
+  .colmar,
+  .academy,
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .mobile.gray {
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: #797A7F;
+  }
+
+  .jumbopic {
+    display: none;
+}
+
+
+.jumbotron {
+  background-color: lightgray;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotext h1{
+  color: #404040;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 1.5rem 0 1.5rem 1rem;
+  line-height: 3.5rem;
+}
+
+.jumbotext p {
+  color: #404040;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 1.5rem 1rem;
+}
+
+.button {
+  background-color: #797A7F;
+  padding: 1rem auto;
+  max-width: 400px;
+  margin: 0 0.5rem 2.5rem 1rem;
+  line-height: 1.5rem;
+  border-radius: 5px;
+}
+
+.button a {
+  text-align: center;
+}
+
+  /* Tablet info section */
+  .desktop {
+    display: none;
+  }
+
+  .info-section-one {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-info {
+    justify-content: center;
+  }
+
+  .mobile-copy {
+    width: 100%;
+    height: auto;
+  }
+
+  .mobile-copy img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 1rem;
+  }
+  .mobile-copy h2 {
+    padding: .5rem 0 .5rem 2rem;
+  }
+
+  .mobile-copy p {
+    padding: 0 0 0.7rem 2rem;
+    color: gray;
+    line-height: 1.25rem;
+  }
+
+  .mobile-copy a {
+    padding: 0 0 0.7rem 2rem;
+  }
+    /* Tablet courses section */
+
+  .courses {
+    display: none;
+  }
+
+  .mobile-courses h2 {
+    color: #404040;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .mobile-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-course {
+    padding: 1rem;
+    background-color: #EAEBEC;
+    border-radius: 5px;
+    margin: 0.25rem 1rem 0.25rem 1rem;
+    width: 85%;
+  }
+
+  .mobile-course h4 {
+    padding: 1rem 0 .7rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: gray;
+    font-weight: 700;
+  }
+
+
+  /* Tablet thesis section */
+
+  .video-copy,
+  .side-menu {
+    display: none;
+  }
+
+  .footer-nav {
+       display: none;
+     }
+}
